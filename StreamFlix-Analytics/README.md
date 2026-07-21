@@ -178,7 +178,7 @@ least 3 specific recommendations.
 |---|---|
 | 1 — Data Cleaning & Quality Report | ✅ Complete |
 | 2 — Exploratory Data Analysis | ✅ Complete |
-| 3 — KPI Calculations | ⏳ Not started |
+| 3 — KPI Calculations | ✅ Complete |
 | 4 — Dashboard & Management Report | ⏳ Not started |
 
 **Phase 1 summary:** All 6 tables loaded and profiled against expected row counts.
@@ -198,6 +198,13 @@ distribution is close to an even 3-way split. Smart TV and Mobile dominate devic
 usage. Completion rate is consistent across genres (~65% band). Review sentiment
 skews strongly positive (68%). Full detail in `notebooks/Phase2_EDA_Eram.ipynb`.
 
+**Phase 3 summary:** All 10 required KPIs calculated, plus the bonus cohort retention
+analysis. Every KPI with a defined target passed: Active Rate 74.66% (> 70%), Churn
+Rate 25.34% (< 30%), Avg Completion 65.31% (> 60%), Watchlist Conversion 46.23%
+(> 40%). MRR is $175,868.51 from 11,199 active subscribers, ARPU $15.70. The top 10%
+of titles account for 30.99% of all plays (moderate hit concentration), and Originals
+make up 27.17% of total watch hours. Full detail in `notebooks/Phase3_KPIs_Eram.ipynb`.
+
 ## Evaluation rubric
 
 Total: 100 marks (+5 bonus)
@@ -215,7 +222,7 @@ Total: 100 marks (+5 bonus)
 
 - [x] `Phase1_DataCleaning_Eram.ipynb`
 - [x] `Phase2_EDA_Eram.ipynb` (all 10 charts, also saved as PNG)
-- [ ] `Phase3_KPIs_Eram.ipynb` (all 10 KPIs)
+- [x] `Phase3_KPIs_Eram.ipynb` (all 10 KPIs)
 - [ ] `Phase4_Dashboard_Eram.pbix`/`.xlsx` (5 pages, slicers)
 - [ ] `Phase4_Report_Eram.docx`/`.pdf` (2-3 pages)
 - [ ] All files named correctly
